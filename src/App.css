@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  --fbcolor: #4267b2;
+  --lightgray: rgb(194, 194, 194);
+  --lightgraybg: rgb(53, 53, 53);
+  --bgcolor: #000;
+  --navbg: rgb(37, 37, 37);
+  --navbghover: rgb(78, 78, 78);
+  background-color: var(--bgcolor);
+}
