@@ -12,3 +12,10 @@ body {
   --navbghover: rgb(78, 78, 78);
   background-color: var(--bgcolor);
 }
+
+.app__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}

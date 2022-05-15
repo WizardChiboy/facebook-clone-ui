@@ -1,11 +1,13 @@
 import { ProfilePhoto } from "../../Imports";
+
 import "./Profile.css";
 
-function Picture() {
+function Picture({ text }) {
   return (
     <>
       <div className="picture">
-        <img src={ProfilePhoto} alt="photo" />
+        <img src={ProfilePhoto} alt="profile" />
+        <h4>{text}</h4>
       </div>
     </>
   );

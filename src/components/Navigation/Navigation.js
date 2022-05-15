@@ -30,7 +30,7 @@ function Navigation() {
 
         <div className="navigation__menu">
           <div className="navigation__menu__user">
-            <Picture /> <h4>Don</h4>
+            <Picture text="Don" />
           </div>
           <div className="navigation__menu__list">
             <AppsIcon />
