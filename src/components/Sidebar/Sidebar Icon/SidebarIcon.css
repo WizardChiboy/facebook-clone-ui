@@ -1,13 +1,19 @@
-.picture {
+.sidebar__icon {
   width: 100%;
   display: flex;
   align-items: center;
+  padding: 8px 5px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
-.picture img {
+.sidebar__icon img {
   border-radius: 50%;
   height: 30px;
   width: 30px;
   margin-right: 10px;
+}
+
+.sidebar__icon:hover {
+  background-color: var(--navbghover);
 }

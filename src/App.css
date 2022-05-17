@@ -9,13 +9,26 @@ body {
   --lightgraybg: rgb(53, 53, 53);
   --bgcolor: #000;
   --navbg: rgb(37, 37, 37);
-  --navbghover: rgb(78, 78, 78);
+  --navbghover: rgb(59, 59, 59);
   background-color: var(--bgcolor);
 }
 
 .app__container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 10px;
+}
+
+.sidebar {
+  flex: 0.2;
+}
+
+.feed {
+  background-color: #42b27e;
+  flex: 0.5;
+}
+
+.widget {
+  background-color: #87b242;
+  flex: 0.2;
 }

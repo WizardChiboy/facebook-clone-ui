@@ -1,3 +1,40 @@
 .sidebar {
   color: white;
 }
+
+.sidebar .MuiSvgIcon-root {
+  background-color: var(--lightgraybg);
+  padding: 2px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.sidebar__more {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar__top {
+  border-bottom: 1px solid var(--lightgraybg);
+  padding-bottom: 15px;
+}
+
+.sidebar__bottom {
+  padding-top: 15px;
+}
+
+.sidebar__more,
+.sidebar__top__profile {
+  padding: 8px 5px;
+  border-radius: 10px;
+}
+
+.sidebar__more:hover,
+.sidebar__top__profile:hover {
+  background-color: var(--navbghover);
+}
+
+.sidebar__bottom h4 {
+  padding: 5px;
+}

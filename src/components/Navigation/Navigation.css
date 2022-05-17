@@ -7,6 +7,11 @@
   color: var(--lightgray);
 }
 
+.navigation .MuiSvgIcon-root,
+.navigation img {
+  cursor: pointer;
+}
+
 .navigation__side {
   display: flex;
   align-items: center;
@@ -47,7 +52,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 10px;
+  padding: 5px 5px;
+}
+
+.navigation__menu__user:hover {
+  border-radius: 20px;
+  background-color: var(--navbghover);
 }
 
 .navigation__menu__user h4 {
