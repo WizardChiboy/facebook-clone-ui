@@ -37,9 +37,6 @@ function Sidebar() {
           <SidebarIcon icon={Groups} text="ASSU STRIKE UPDATE" />
           <SidebarIcon icon={Doncodes} text="Doncodes Aceademy" />
           <SidebarIcon icon={ReactImg} text="React Developers Group" />
-          <SidebarIcon icon={ReactImg} text="React Gurus" />
-          <SidebarIcon icon={ReactImg} text="React Gurus" />
-          <SidebarIcon icon={ReactImg} text="React Gurus" />
         </div>
       </div>
     </>

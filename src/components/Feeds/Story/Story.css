@@ -1,0 +1,33 @@
+.feed__stories__img {
+  width: 130px;
+  height: 210px;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.feed__stories__img:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+.feed__stories__user {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  outline: var(--fbcolor) 4px solid;
+}
+
+.feed__stories > h4 {
+  text-transform: capitalize;
+  color: white;
+  overflow: wrap;
+  overflow-wrap: break-word;
+  width: 100px;
+  position: relative;
+  top: 135px;
+  left: 20px;
+}

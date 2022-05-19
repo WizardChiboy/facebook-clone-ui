@@ -4,7 +4,7 @@
 }
 
 body {
-  --fbcolor: #4267b2;
+  --fbcolor: #2e89ff;
   --lightgray: rgb(194, 194, 194);
   --lightgraybg: rgb(53, 53, 53);
   --bgcolor: #000;
@@ -24,11 +24,9 @@ body {
 }
 
 .feed {
-  background-color: #42b27e;
   flex: 0.5;
 }
 
 .widget {
-  background-color: #87b242;
   flex: 0.2;
 }

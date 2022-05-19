@@ -1,3 +1,4 @@
-.feed {
-  color: white;
+.feeds {
+  display: flex;
+  justify-content: space-between;
 }
