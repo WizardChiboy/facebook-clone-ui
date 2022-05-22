@@ -2,3 +2,38 @@
   display: flex;
   justify-content: space-between;
 }
+
+.feeds__create__story__img {
+  width: 130px;
+  height: 210px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.feeds__create__story__img:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+.feeds__create__story__icon_container {
+  cursor: pointer;
+  background-color: var(--lightgraybg);
+  position: absolute;
+  top: 230px;
+  width: 130px;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 5px;
+}
+
+.feeds__create__story__icon_container .MuiSvgIcon-root {
+  color: var(--fbcolor);
+  outline: var(--lightgraybg) 5px solid;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.feeds__create__story__icon_container__text h4 {
+  color: white;
+}
