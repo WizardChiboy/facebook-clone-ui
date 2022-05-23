@@ -1,37 +1,22 @@
 import React from "react";
 import {
-  ProfilePhoto,
   Neymar,
-  Messi,
   Cristiano,
   Rashford,
   Chukwueze,
+  ProfilePhoto,
 } from "../../Imports";
 import "./Feed.css";
 import Story from "./Story/Story";
 
-import AddCircleOutlineRoundedIcon from "@mui/icons-material/AddCircleOutlineRounded";
+import CreateStory from "./Story/CreateStory";
+import Picture from "../profile/Profile";
 
 function Feed() {
   return (
     <>
       <div className="feeds">
-        <div className="feeds__create__story">
-          <img
-            src={ProfilePhoto}
-            alt="story"
-            className="feeds__create__story__img"
-          />
-          <div className="feeds__create__story__icon_container">
-            <div className="feeds__create__story__icon_container__icon">
-              <AddCircleOutlineRoundedIcon />
-            </div>
-
-            <div className="feeds__create__story__icon_container__text">
-              <h4>Create Story</h4>
-            </div>
-          </div>
-        </div>
+        <CreateStory />
 
         <Story
           username="ronaldo"
@@ -52,6 +37,18 @@ function Feed() {
           profilePhoto={Chukwueze}
           storyImg={Chukwueze}
         />
+      </div>
+      <div className="feeds__mind">
+        <div className="feeds__mind__post">
+          <div className="feeds__mind__post__top">
+            <div className="feeds__mind__post__top__pic">
+              <img src={ProfilePhoto} alt="profile" />
+            </div>
+            <input type="text" placeholder="What's on your mind, Don?" />
+          </div>
+
+          <div className="feeds__mind__post__bottom"></div>
+        </div>
       </div>
     </>
   );

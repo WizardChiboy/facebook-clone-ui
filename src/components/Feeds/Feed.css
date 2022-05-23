@@ -1,6 +1,7 @@
 .feeds {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .feeds__create__story__img {
@@ -9,6 +10,7 @@
   border-radius: 10px;
   position: relative;
   cursor: pointer;
+  left: 20px;
 }
 
 .feeds__create__story__img:hover {
@@ -25,6 +27,7 @@
   text-align: center;
   border-radius: 0px 0px 10px 10px;
   padding-bottom: 5px;
+  left: 367px;
 }
 
 .feeds__create__story__icon_container .MuiSvgIcon-root {
@@ -35,5 +38,42 @@
 }
 
 .feeds__create__story__icon_container__text h4 {
+  color: white;
+}
+
+.feeds__mind {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.feeds__mind__post {
+  background-color: var(--navbg);
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.feeds__mind__post__top {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--lightgraybg);
+  padding-bottom: 10px;
+}
+
+.feeds__mind__post__top__pic img {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.feeds__mind__post__top input {
+  background-color: var(--lightgraybg);
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0px 10px;
   color: white;
 }

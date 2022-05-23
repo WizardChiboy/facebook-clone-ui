@@ -1,3 +1,7 @@
+.feed__stories {
+  margin-right: 10px;
+}
+
 .feed__stories__img {
   width: 130px;
   height: 210px;
