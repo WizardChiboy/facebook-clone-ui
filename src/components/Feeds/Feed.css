@@ -4,13 +4,17 @@
   width: 100%;
 }
 
+.feeds__create__story {
+  margin-right: 1px;
+}
+
 .feeds__create__story__img {
   width: 130px;
   height: 210px;
   border-radius: 10px;
   position: relative;
   cursor: pointer;
-  left: 20px;
+  /* left: 20px; */
 }
 
 .feeds__create__story__img:hover {
@@ -27,7 +31,7 @@
   text-align: center;
   border-radius: 0px 0px 10px 10px;
   padding-bottom: 5px;
-  left: 367px;
+  /* left: 367px; */
 }
 
 .feeds__create__story__icon_container .MuiSvgIcon-root {
@@ -42,7 +46,7 @@
 }
 
 .feeds__mind {
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 30px;
 }
@@ -76,4 +80,35 @@
   border-radius: 15px;
   padding: 0px 10px;
   color: white;
+}
+
+.feeds__mind__post__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.feeds__mind__post__bottom__video img,
+.feeds__mind__post__bottom__gallery img,
+.feeds__mind__post__bottom__emoji img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.feeds__mind__post__bottom__video,
+.feeds__mind__post__bottom__gallery,
+.feeds__mind__post__bottom__emoji {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feeds__mind__post__bottom span {
+  color: white;
+}
+
+.feeds__room {
+  display: flex;
 }

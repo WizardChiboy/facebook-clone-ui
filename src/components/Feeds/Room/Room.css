@@ -1,0 +1,7 @@
+.room__user__img {
+  width: 130px;
+  height: 210px;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+}
