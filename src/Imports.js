@@ -16,6 +16,7 @@ import Gallery from "./images/gallery.jpg";
 import Emoji from "./images/emoji.webp";
 import Video from "./images/video.jpg";
 import Girl from "./images/girl.png";
+import NoAvatar from "./images/noAvatar.png";
 
 export {
   FbLogo,
@@ -36,4 +37,5 @@ export {
   Emoji,
   Video,
   Girl,
+  NoAvatar,
 };

@@ -6,6 +6,7 @@ function Room({ photo }) {
     <>
       <div className="room">
         <img src={photo} alt="room user" className="room__user__img" />
+        <span></span>
       </div>
     </>
   );

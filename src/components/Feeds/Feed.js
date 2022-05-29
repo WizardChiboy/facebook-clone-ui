@@ -9,6 +9,7 @@ import {
   Gallery,
   Emoji,
   Girl,
+  NoAvatar,
 } from "../../Imports";
 import "./Feed.css";
 import Story from "./Story/Story";
@@ -70,12 +71,16 @@ function Feed() {
 
       <div className="feeds__room">
         <div className="feeds__room__icon">
-          <VideoCallIcon />
+          <VideoCallIcon /> <span>Create room</span>
         </div>
 
         <div className="feeds__room__users">
-          <Room photo={Girl} />
-          <Room photo={Girl} />
+          <Room photo={NoAvatar} />
+          <Room photo={NoAvatar} />
+          <Room photo={NoAvatar} />
+          <Room photo={NoAvatar} />
+          <Room photo={NoAvatar} />
+          <Room photo={NoAvatar} />
         </div>
       </div>
     </>
