@@ -14,6 +14,7 @@ import Rashford from "./images/rashford.jpg";
 import Chukwueze from "./images/chukwueze.jpg";
 import Gallery from "./images/gallery.jpg";
 import Emoji from "./images/emoji.webp";
+import Marriage from "./images/marriage.webp";
 import Video from "./images/video.jpg";
 import Girl from "./images/girl.png";
 import NoAvatar from "./images/noAvatar.png";
@@ -38,4 +39,5 @@ export {
   Video,
   Girl,
   NoAvatar,
+  Marriage,
 };

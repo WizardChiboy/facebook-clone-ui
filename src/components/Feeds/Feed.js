@@ -10,13 +10,16 @@ import {
   Emoji,
   Girl,
   NoAvatar,
+  Marriage,
 } from "../../Imports";
 import "./Feed.css";
 import Story from "./Story/Story";
 
 import CreateStory from "./Story/CreateStory";
 import VideoCallIcon from "@mui/icons-material/VideoCall";
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import Room from "./Room/Room";
+import Picture from "../profile/Profile";
 
 function Feed() {
   return (
@@ -81,6 +84,30 @@ function Feed() {
           <Room photo={NoAvatar} />
           <Room photo={NoAvatar} />
           <Room photo={NoAvatar} />
+        </div>
+      </div>
+
+      <div className="feeds__post__container__main">
+        <div className="feeds__post__container">
+          <div className="feeds__post__container__contact">
+            <div className="feeds__post__container__contact__img">
+              <Picture />
+            </div>
+
+            <div className="feeds__post__container__contact__heading">
+              <h4>Godly Marriage and relationship</h4>
+              <p>
+                john doe <span id="timestamp"> .10h.</span>
+              </p>
+            </div>
+          </div>
+
+          <div className="feeds__post__container__more__icon">
+            <MoreHorizIcon />
+          </div>
+        </div>
+        <div className="feeds__post__container__main__img">
+          <img src={Marriage} alt="marriage" />
         </div>
       </div>
     </>

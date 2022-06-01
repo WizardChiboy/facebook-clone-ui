@@ -117,10 +117,72 @@
   margin-top: 30px;
   justify-content: space-between;
   align-items: center;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .feeds__room__users {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.feeds__room__icon {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 1px 10px;
+  border: var(--fbcolor) 1px solid;
+  border-radius: 30px;
+}
+
+.feeds__room__icon .MuiSvgIcon-root {
+  color: rgb(240, 82, 240);
+}
+
+.feeds__room__icon span {
+  margin-left: 15px;
+  color: var(--fbcolor);
+}
+
+.feeds__post__container {
+  background-color: var(--navbg);
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 5px;
+}
+
+.feeds__post__container__contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feeds__post__container__contact__heading h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.feeds__post__container__contact__heading p {
+  color: var(--lightgray);
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.feeds__post__container__more__icon {
+  color: white;
+}
+
+.feeds__post__container__main__img {
+  width: 81%;
+  margin: auto;
+}
+
+.feeds__post__container__main__img img {
+  width: 100%;
 }
