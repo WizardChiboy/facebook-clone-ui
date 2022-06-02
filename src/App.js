@@ -1,27 +1,17 @@
 import "./App.css";
-import Navigation from "./components/Navigation/Navigation";
-import Sidebar from "./components/Sidebar/Sidebar";
-import Feed from "./components/Feeds/Feed";
-import Widget from "./components/Widgets/Widget";
+import Home from "./components/home/Home";
+import Dashboard from "./routes/dashboard/Dashboard";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <div className="app__container">
-        <div className="sidebar">
-          <Sidebar />
-        </div>
-
-        <div className="feed">
-          <Feed />
-        </div>
-
-        <div className="widget">
-          <Widget />
-        </div>
-      </div>
-    </div>
+    <>
+      {/* Routes */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </>
   );
 }
 

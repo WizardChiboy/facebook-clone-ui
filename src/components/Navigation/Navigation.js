@@ -12,6 +12,8 @@ import ChatIcon from "@mui/icons-material/Chat";
 import "./Navigation.css";
 import Picture from "../profile/Profile";
 
+import { Link } from "react-router-dom";
+
 function Navigation() {
   return (
     <>
@@ -29,9 +31,12 @@ function Navigation() {
         </div>
 
         <div className="navigation__menu">
-          <div className="navigation__menu__user">
-            <Picture text="Don" />
-          </div>
+          <Link to="/dashboard">
+            <div className="navigation__menu__user">
+              <Picture text="Don" />
+            </div>
+          </Link>
+
           <div className="navigation__menu__list">
             <AppsIcon />
             <ChatIcon />
